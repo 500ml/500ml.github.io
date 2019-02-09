@@ -7,12 +7,13 @@
   <body>
     <h1 style="text-align: center">welcome to my website</h1>
     <div style="text-align: center">
-      <a href="www.baidu.com" class="ppt_dw" onclick="js_method()">Download Now!</a>
+      <a href="javascript:void(0)" class="ppt_dw" onclick="js_method()">Download Now!</a>
     </div>
 
     <script type="text/javascript">
     		function js_method(){
-    			location.herf="www.baidu.com";
+    			window.location.herf="www.baidu.com";
+          return false;
     		}
       </script>
 
